@@ -1,0 +1,14 @@
+/**
+ * @name Usuń mnie to 
+ * @description Usuwa głupie gówna z discorda
+ * @author krzysziomek
+ * @version 0.0.1
+ * @website https://github.com/krzysziomek
+ * @source https://github.com/krzysziomek/cdn/usunmnieto.theme.css
+*/
+
+
+
+#channels > ul > li > div[class^="mainContainer"] {
+    display: none !important;
+}
