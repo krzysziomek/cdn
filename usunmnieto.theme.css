@@ -8,7 +8,27 @@
 */
 
 
-
+/* Jakiś kurwa kanałowy Vibe w postaci gifa kanale głosowym  */
 #channels > ul > li > div[class^="mainContainer"] {
+    display: none !important;
+}
+
+/* Invite to voice */
+#channels > ul > li > div[class*="listDefault"] > div[class^="animation"] {
+    display: none !important;
+}
+
+/* Guzik od ustawiania tego Vibe'u na kanał */
+#channels > ul > li > div[class^="buttonWrapper"] {
+    display: none !important;
+}
+
+/* Te pierdolone Activity cardy nad listą użytkowników */
+#app-mount aside div[class^="content"] > div div[role="listitem"] {
+    display: none !important;
+}
+
+/* Tytuł i rozwijak Activity cards */
+#app-mount aside [class^="content"] > h3:has(span[class^="hiddenVisually"]):not(:has([class*="membersGroupHeader"])) {
     display: none !important;
 }
